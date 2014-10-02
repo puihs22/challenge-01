@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  	<link rel='stylesheet' href='/stylesheets/typicons/src/font/typicons.css' />
+  	<link href="/stylesheets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  	<style>
+  	</style>
+  </head>
+	<!-- <div class="container">
+	    <h1>{{ title }}</h1>
+    	<p class="typcn typcn-arrow-left">Welcome to {{ title }}<p>
+		<div class="starter-template">
+			<h1>Napaporn Utistham</h1>
+			<p class="lead">I'm front-end developer</p>
+		</div>
+	</div> -->
+
+<body>
+	<div class="container">
+    <br>
+    <div class="row-fluid">
+      <div class="span10 offsetHalf">
+		    <i class="icon-screenshot icon-5x" style="color:#ee1111;"></i>
+      </div>
+    </div>
+    <br><br><br>
+  	<div class="row-fluid">
+        <h1 class="pull-center"><strong>{{ title }}</strong></h1>
+        <p class="lead pull-center <br> typcn-arrow-right">Front-End Developer @Taskworld</p>
+  	</div>	
+    <br><br><br><br>
+    <div class="row-fluid">
+    	<div class="span5 offsetHalf block"><br><br><br>
+          <div class="left-block" style="width:500px;">
+            <h1>"Problem can't be solved by the same level of thinking that created them"</h1>
+          </div><br>
+          <div class="right-block" style="width:500px;">
+            <a class="sl-fb" href="https://www.facebook.com/puihuahed" style="margin-right: 10px;"><i class="fa fa-facebook fa-2x"></i></a>
+            <a class="sl-tw" href="https://twitter.com/thepuihs22" style="margin-right: 10px;"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class="sl-gp" href="https://plus.google.com/u/0/106974790691617829933" style="margin-right: 10px;"><i class="fa fa-google-plus fa-2x"></i></a>
+            <a class="sl-sk" href="thepuihs22" style="margin-right: 10px;"><i class="fa fa-skype fa-2x"></i></a>
+            <a class="sl-ln" href="http://instagram.com/thepuihs22" style="margin-right: 10px;"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+    	</div>
+    </div> 
+  </div>
+</body>
+	<script src="/javascripts/jquery.js"></script>
+	<script src="/stylesheets/dist/js/bootstrap.min.js"></script>
+</html>
